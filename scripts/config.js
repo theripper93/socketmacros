@@ -21,7 +21,7 @@ Hooks.once("socketlib.ready", () => {
 });
 
 Hooks.on("renderMacroConfig", (app,html)=>{
-
+    if(!game.user.isGM) return;
     const isSocket = app.object.getFlag("socketmacros", "isSocket");
     const checkbox = `
     <div class="form-group">

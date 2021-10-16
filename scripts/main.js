@@ -2,6 +2,7 @@ class SocketMacros{
     static async execute(...args){
         const data = args[args.length-1];
         const macro = game.macros.get(data.id);
+        args.pop();
         if(!macro) return;
         macro.execute(...args);
     }
