@@ -1,6 +1,6 @@
 {
-  "name": "name",
-  "title": "title",
+  "name": "socketmacros",
+  "title": "Socket Macros",
   "description": "desc",
   "version": "0.1",
   "author": "theripper93",
@@ -29,14 +29,17 @@
   "packs": [
   ],
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.8",
-  "url": "https://github.com/theripper93/name",
-  "manifest": "https://github.com/theripper93/name/releases/latest/download/module.json",
-  "download": "https://github.com/theripper93/name/releases/latest/download/module.zip",
+  "compatibleCoreVersion": "0.8.9",
+  "url": "",
+  "manifest": "",
+  "download": "",
   "socket":true,
   "dependencies": [
     {
         "name": "lib-wrapper"
+    },
+    {
+        "name": "socketlib"
     }
   ]
 }
