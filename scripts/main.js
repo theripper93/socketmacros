@@ -8,9 +8,11 @@ class SocketMacros{
     }
 
     static executeWrapper(wrapped, ...args){
-        if(this.data.flags?.socketmacros.isSocket && !args[args.length-1]?.fromSocket){
+        if(this.data.flags?.socketmacros?.isSocket && !args[args.length-1]?.fromSocket){
             SocketMacrosSocket.executeForOthers("execute",...args, {id: this.id, "fromSocket":true});
         }
         return wrapped(...args);
     }
 }
+
+//game.dnd5e.dice.damageRoll
