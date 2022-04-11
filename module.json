@@ -1,8 +1,8 @@
 {
   "name": "socketmacros",
   "title": "Socket Macros",
-  "description": "desc",
-  "version": "0.3",
+  "description": "Run macros on all clients",
+  "version": "0.5",
   "author": "theripper93",
   "authors": [
       {
@@ -29,7 +29,7 @@
   "packs": [
   ],
   "minimumCoreVersion": "0.8.6",
-  "compatibleCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "9",
   "url": "",
   "manifest": "",
   "download": "",
