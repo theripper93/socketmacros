@@ -1,7 +1,7 @@
 {
   "title": "Socket Macros",
   "description": "Run macros on all clients",
-  "version": "0.6",
+  "version": "0.7",
   "authors": [
     {
       "name": "theripper93",
@@ -41,7 +41,7 @@
     ]
   },
   "compatibility": {
-    "minimum": "10",
-    "verified": "10"
+    "minimum": "11",
+    "verified": "11"
   }
 }
