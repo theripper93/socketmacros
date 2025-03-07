@@ -41,7 +41,9 @@
     ]
   },
   "compatibility": {
-    "minimum": "11",
-    "verified": "11"
-  }
+    "minimum": "12",
+    "verified": "12"
+  },
+  "manifest": "https://foundryvtt.s3.us-west-2.amazonaws.com/modules/socketmacros/module.json",
+  "protected": false
 }
